@@ -34,6 +34,10 @@
       {
         "id": 4,
         "tipo": "Veggie burger"
+      },
+      {
+        "id": 5,
+        "tipo": "Costela"
       }
     ],
     "opcionais": [
@@ -82,7 +86,11 @@
       "nome": "Matheus Battisti",
       "carne": "Picanha",
       "pao": "Italiano Branco",
-      "opcionais": ["Bacon", "Salame", "Cebola roxa"],
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Cebola roxa"
+      ],
       "status": "Finalizado",
       "id": 1
     },
@@ -90,9 +98,50 @@
       "nome": "João Coelho",
       "carne": "Maminha",
       "pao": "3 Queijos",
-      "opcionais": ["Salame", "Cebola roxa"],
+      "opcionais": [
+        "Salame",
+        "Cebola roxa"
+      ],
       "status": "Solicitado",
       "id": 4
+    },
+    {
+      "nome": "Charles",
+      "carne": "Costela",
+      "pao": "3 Queijos",
+      "opicionais": [
+        "Cheddar",
+        "Bacon",
+        "Tomate",
+        "Pepino",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado",
+      "id": 5
+    },
+    {
+      "nome": "Paula",
+      "carne": "Alcatra",
+      "pao": "Integral",
+      "opicionais": [
+        "Bacon",
+        "Cebola roxa",
+        "Pepino",
+        "Cheddar",
+        "Tomate"
+      ],
+      "status": "Solicitado",
+      "id": 6
+    },
+    {
+      "nome": "Charles",
+      "carne": "Costela",
+      "pao": "Integral",
+      "opicionais": [
+        "Cheddar"
+      ],
+      "status": "Solicitado",
+      "id": 7
     }
   ]
 }
