@@ -87,7 +87,7 @@ export default {
             const res = await req.json();
 
             //Colocar uma msg de sistemas 
-            this.msg = `Pedido Nº ${res.id} realizado com sucesso !!!`
+            this.msg = `Pedido removido com sucesso !!!`
 
             //Limpar Msg
             setTimeout(() => this.msg = "", 3000)
@@ -101,8 +101,7 @@ export default {
     },
     mounted() {
         this.getIngredientes()
-    }
-    ,
+    },
     components: {
         Message
     }
@@ -110,7 +109,6 @@ export default {
 </script>
 
 <style scoped>
-
 #burger-form {
     max-width: 400px;
     margin: 0 auto;
