@@ -95,53 +95,18 @@
       "id": 1
     },
     {
-      "nome": "João Coelho",
-      "carne": "Maminha",
+      "nome": "Charles",
+      "carne": "Costela",
       "pao": "3 Queijos",
       "opcionais": [
-        "Salame",
-        "Cebola roxa"
-      ],
-      "status": "Solicitado",
-      "id": 4
-    },
-    {
-      "nome": "Charles",
-      "carne": "Costela",
-      "pao": "3 Queijos",
-      "opicionais": [
-        "Cheddar",
-        "Bacon",
-        "Tomate",
-        "Pepino",
-        "Cebola roxa"
-      ],
-      "status": "Solicitado",
-      "id": 5
-    },
-    {
-      "nome": "Paula",
-      "carne": "Alcatra",
-      "pao": "Integral",
-      "opicionais": [
         "Bacon",
         "Cebola roxa",
-        "Pepino",
         "Cheddar",
-        "Tomate"
+        "Tomate",
+        "Pepino"
       ],
       "status": "Solicitado",
-      "id": 6
-    },
-    {
-      "nome": "Charles",
-      "carne": "Costela",
-      "pao": "Integral",
-      "opicionais": [
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": 7
+      "id": 2
     }
   ]
 }
