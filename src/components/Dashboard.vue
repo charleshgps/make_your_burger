@@ -22,9 +22,9 @@
                     </ul>
                 </div>
                 <div id="acoes">
-                    <select name="status" class="status">
+                    <select name="status" class="status" @change="updatedBurger($event, burger.id)">
                         <option value="">Selecione</option>
-                        <option v-for="s in status" :key="s.id" value="s.tipo" :selected="burger.status == s.tipo">
+                        <option v-for="s in status" :key="s.id" :value="s.tipo" :selected="burger.status == s.tipo">
                             {{ s.tipo }}
                         </option>
                     </select>
@@ -64,17 +64,24 @@ export default {
             const req = await fetch(`http://localhost:3000/burgers/${id}`, {
                 method: "DELETE"
             });
-
             const res = await req.json();
-
             //msg
-
             this.getPedidos();
-
+        },
+        async updatedBurger(event, id) {
+            const option = event.target.value;
+            const dataJson = JSON.stringify({ status: option });
+            const req = await fetch(`http://localhost:3000/burgers/${id}`, {
+                method: "PATCH",
+                headers: { "Content-Type": "application/json" },
+                body: dataJson
+            });
+            const res = await req.json();
+            console.log(res);
+        },
+        mounted() {
+            this.getPedidos();
         }
-    },
-    mounted() {
-        this.getPedidos();
     }
 }
 </script>

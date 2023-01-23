@@ -107,6 +107,20 @@
       ],
       "status": "Solicitado",
       "id": 2
+    },
+    {
+      "nome": "Charles",
+      "carne": "Costela",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Cebola roxa",
+        "Pepino",
+        "Tomate",
+        "Cheddar"
+      ],
+      "status": "Solicitado",
+      "id": 3
     }
   ]
 }
